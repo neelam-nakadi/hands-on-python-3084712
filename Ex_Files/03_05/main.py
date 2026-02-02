@@ -29,8 +29,8 @@ with open("laureates.csv", "r") as f:
 laureates_beginning_with_a = []
 # LinkedIn learner code here
 
-for lareate in laureates:
-    if lareate['name'][0] == "A":
+for laureate in laureates:
+    if laureate['name'][0] == "A":
         laureates_beginning_with_a.append(lareate)
 
 
